@@ -116,17 +116,11 @@ student-enrollment-system/
 
 ## Contributing
 
-We welcome contributions! Here's how you can help:
-
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 <img width="1700" height="897" alt="image" src="https://github.com/user-attachments/assets/ea432374-3198-4cdd-9f28-34d8bae098d6" />
