@@ -1,0 +1,29 @@
+/* Add any custom styles here if needed */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .tabs-container {
+    overflow-x: auto;
+  }
+}
+
+/* Enhance form inputs */
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Tab styling */
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  border-bottom: 3px solid #0d6efd;
+}
+
+/* Table styling */
+.table-hover tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.05);
+}
