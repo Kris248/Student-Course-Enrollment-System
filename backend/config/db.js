@@ -81,9 +81,13 @@ class Database {
     await this.pool.query(`
       INSERT IGNORE INTO courses (title, description, image)
       VALUES 
-        ('Web Development Fundamentals', 'Learn HTML, CSS and JavaScript basics', 'web-dev.jpg'),
-        ('Database Management', 'Introduction to SQL and database design', 'database.jpg'),
-        ('React for Beginners', 'Build modern web applications with React', 'react.jpg');
+        ('Web Development Fundamentals', 'Learn HTML, CSS and JavaScript basics', 'https://scandiweb.com/blog/wp-content/uploads/2024/02/blog-visuals-12.png'),
+
+
+        ('Database Management', 'Introduction to SQL and database design', 'https://media.licdn.com/dms/image/v2/D4D12AQFJ0hM7XMGuJw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1701889494022?e=2147483647&v=beta&t=65OV3EjQm2hnegI2E4RdO2y86MQFUpdAIQYP2JdeIeI'),
+
+
+        ('React for Beginners', 'Build modern web applications with React', 'https://kinsta.com/wp-content/uploads/2023/04/react-must-be-in-scope-when-using-jsx.jpg');
     `);
   }
 
